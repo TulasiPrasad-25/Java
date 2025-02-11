@@ -15,4 +15,5 @@ public class MinElement {
         int[] arr = {67,45,2,56,76,87,97,86};
         System.out.println(Min(arr));
     }
+
 }
