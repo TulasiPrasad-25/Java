@@ -6,8 +6,7 @@ public class LinearSearch{
             System.out.println("empty array");
         }
         for (int index=0;index<arr.length;index++){
-            int element = arr[index];
-            if (element == target){
+            if (arr[index] == target){
                 return index;
             }
         }
